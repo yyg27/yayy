@@ -17,7 +17,7 @@ if ! command -v yay &> /dev/null; then
 fi
 
 echo "Downloading yayy..."
-sudo curl -sL https://raw.githubusercontent.com/yyg27/yayy/main/yayy -o /usr/local/bin/yayy
+sudo curl -sL https://raw.githubusercontent.com/yyg27/yayy/main/yayy.sh -o /usr/local/bin/yayy
 sudo chmod +x /usr/local/bin/yayy
 
 echo "yayy installed successfully"
