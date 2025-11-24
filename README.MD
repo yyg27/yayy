@@ -15,9 +15,13 @@ curl -sL https://raw.githubusercontent.com/yyg27/yayy/main/install.sh | bash
 - `fzf`
 
 ## Usage
-
+For INSTALLING AUR packages
 ```bash
 yayy
+```
+For REMOVING already installed packages
+```bash
+yayyrm
 ```
 
 - Type to search
