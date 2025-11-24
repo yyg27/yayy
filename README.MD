@@ -26,7 +26,7 @@ yayyrm
 
 - Type to search
 - **Tab** to select multiple packages
-- **Enter** to install
+- **Enter** to install/remove
 - **ESC** to cancel
 
 ## License
