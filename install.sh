@@ -22,7 +22,7 @@ sudo chmod +x /usr/local/bin/yayy
 
 #for yayyrm.sh for removing packages
 echo "Downloading yayyrm.sh..."
-sudo curl -sL https://raw.githubusercontent.com/yyg27/yayy/main/yayyrm.sh -o /usr/local/bin/yayy
+sudo curl -sL https://raw.githubusercontent.com/yyg27/yayy/main/yayyrm.sh -o /usr/local/bin/yayyrm
 sudo chmod +x /usr/local/bin/yayyrm
 
 echo "yayy installed successfully"
