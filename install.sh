@@ -17,6 +17,9 @@ if ! command -v fzf &> /dev/null; then
     sudo pacman -S --needed --noconfirm fzf
 fi
 
+#expac: yayyrm -d/-s, jq: yayy -p
+sudo pacman -S --needed --noconfirm expac jq
+
 echo "Downloading yayy.sh..."
 sudo curl -fsSL https://raw.githubusercontent.com/yyg27/yayy/main/yayy.sh -o /usr/local/bin/yayy
 sudo chmod +x /usr/local/bin/yayy
