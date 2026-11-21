@@ -13,6 +13,8 @@ curl -sL https://raw.githubusercontent.com/yyg27/yayy/main/install.sh | bash
 
 - `yay`
 - `fzf`
+- `expac` (for `yayyrm -d/-s`)
+- `jq` (for `yayy -p`)
 
 ## Usage
 For INSTALLING AUR packages
@@ -28,6 +30,14 @@ yayyrm
 - **Tab** to select multiple packages
 - **Enter** to install/remove
 - **ESC** to cancel
+
+### Sorting
+```bash
+yayy -p      # AUR packages by popularity first (downloads ~11MB metadata)
+yayyrm -d    # newest installed first
+yayyrm -s    # largest first
+```
+Without a flag, lists are sorted by name.
 
 ## License
 
